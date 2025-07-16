@@ -1,0 +1,58 @@
+[{
+  "_id": {
+    "$oid": "6870e4725199c3c00f00acf6"
+  },
+  "provider": "Google Gemini",
+  "model": "gemini-1.5-pro",
+  "apiUrl": "https://generativelanguage.googleapis.com",
+  "apiKeyId": "apikey003",
+  "isActive": false,
+  "deletedAt": "2025-07-10T16:00:00",
+  "createdBy": "u003",
+  "createdDate": "2025-07-01T08:00:00",
+  "notes": "Deprecated model - use with caution",
+  "tenantId": "tenant003"
+},
+{
+  "_id": {
+    "$oid": "6870e4725199c3c00f00acf5"
+  },
+  "provider": "Anthropic",
+  "model": "claude-3",
+  "apiUrl": "https://api.anthropic.com",
+  "apiKeyId": "apikey002",
+  "isActive": true,
+  "createdBy": "u002",
+  "createdDate": "2025-07-11T09:30:00",
+  "updatedDate": "2025-07-15T12:00:00",
+  "notes": "Claude used for summarization tasks",
+  "tenantId": "tenant002"
+},
+{
+  "_id": {
+    "$oid": "6870e4725199c3c00f00acf4"
+  },
+  "provider": "OpenAI",
+  "model": "gpt-4",
+  "apiUrl": "https://api.openai.com/v1",
+  "apiKeyId": "apikey001",
+  "isActive": true,
+  "createdBy": "u001",
+  "createdDate": "2025-07-11T09:00:00",
+  "notes": "Primary production model",
+  "tenantId": "tenant001"
+},
+{
+  "_id": {
+    "$oid": "6870e4725199c3c00f00acf7"
+  },
+  "provider": "Azure OpenAI",
+  "model": "gpt-4",
+  "apiUrl": "https://azure.openai.com/custom-endpoint",
+  "apiKeyId": "apikey004",
+  "isActive": true,
+  "createdBy": "u004",
+  "createdDate": "2025-07-11T10:45:00",
+  "notes": "Scoped to Azure tenant for internal use",
+  "tenantId": "tenant004"
+}]
