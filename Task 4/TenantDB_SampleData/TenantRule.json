@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "6870e4215199c3c00f00aceb"
+  },
+  "globalRuleId": {
+    "$oid": "6870bf68278b9091175e6052"
+  },
+  "enabled": true,
+  "overrideConfig": {
+    "pattern": "<script>",
+    "response": "sanitize"
+  },
+  "tenantId": "tenant004"
+},
+{
+  "_id": {
+    "$oid": "6870e4215199c3c00f00ace9"
+  },
+  "globalRuleId": {
+    "$oid": "6870bf68278b9091175e604f"
+  },
+  "enabled": false,
+  "overrideConfig": {
+    "notes": "Temporarily disabled for testing"
+  },
+  "tenantId": "tenant002"
+},
+{
+  "_id": {
+    "$oid": "6870e4215199c3c00f00acea"
+  },
+  "globalRuleId": {
+    "$oid": "6870bf68278b9091175e6050"
+  },
+  "enabled": true,
+  "overrideConfig": {
+    "rateLimit": 100,
+    "throttle": true
+  },
+  "tenantId": "tenant003"
+},
+{
+  "_id": {
+    "$oid": "6870e4215199c3c00f00ace8"
+  },
+  "globalRuleId": {
+    "$oid": "6870bf68278b9091175e604f"
+  },
+  "enabled": true,
+  "overrideConfig": {
+    "action": "block",
+    "severity": "high"
+  },
+  "tenantId": "tenant001"
+}]

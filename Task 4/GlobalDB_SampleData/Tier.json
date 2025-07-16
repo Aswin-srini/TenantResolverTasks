@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "6870be28278b9091175e603c"
+  },
+  "name": "Enterprise",
+  "features": [
+    "Dedicated account manager",
+    "Custom SLAs",
+    "Unlimited users"
+  ],
+  "description": "Full-scale enterprise solution",
+  "limits": {
+    "users": "unlimited",
+    "tokensPerMonth": "unlimited"
+  },
+  "createdDate": "2025-07-11T10:30:00"
+},
+{
+  "_id": {
+    "$oid": "6870be28278b9091175e6039"
+  },
+  "name": "Free",
+  "features": [
+    "Basic usage",
+    "Community support"
+  ],
+  "description": "Free tier with limited access",
+  "limits": {
+    "users": 1,
+    "tokensPerMonth": 1000
+  },
+  "createdDate": "2025-07-11T09:00:00"
+},
+{
+  "_id": {
+    "$oid": "6870be28278b9091175e603a"
+  },
+  "name": "Starter",
+  "features": [
+    "Email support",
+    "Increased limits"
+  ],
+  "description": "Good for small teams and testing",
+  "limits": {
+    "users": 5,
+    "tokensPerMonth": 10000
+  },
+  "createdDate": "2025-07-11T09:30:00"
+},
+{
+  "_id": {
+    "$oid": "6870be28278b9091175e603b"
+  },
+  "name": "Pro",
+  "features": [
+    "Priority support",
+    "Analytics dashboard",
+    "Extended API access"
+  ],
+  "description": "Professional plan for growing businesses",
+  "limits": {
+    "users": 50,
+    "tokensPerMonth": 250000
+  },
+  "createdDate": "2025-07-11T10:00:00"
+}]
