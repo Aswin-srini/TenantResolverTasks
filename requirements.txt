@@ -1,0 +1,8 @@
+datetime
+typing
+fastapi
+motor
+pydantic
+uvicorn
+odmantic
+bson
